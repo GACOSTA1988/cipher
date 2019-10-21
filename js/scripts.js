@@ -40,3 +40,11 @@ var fourthFunction = function(){
   console.log((splitPrompt[sentenceHalfNumber]) + fullCipher);
 }
 fourthFunction();
+
+
+$("#model").click(function(){
+  alert("Clicked image of model!");
+$("img").addClass ("imgborder"); 
+
+
+});
